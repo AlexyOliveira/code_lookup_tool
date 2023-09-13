@@ -37,6 +37,7 @@ const App = () => {
     } catch (error) {
       console.log('Error: ' + error);
       alert('Cep inválido');
+      setLoading(false)
     }
   };
   return (
